@@ -1,0 +1,204 @@
+/*ja gwn algemene shit ig*/
+body {
+  background-color: #C4D7F2;
+}
+
+h1 {
+  color: #562651;
+  font-family: "Holtwood One Sc" , "Ariel" , sans-serif;
+  text-align: center;
+}
+
+
+/*alle header dingen hiero*/
+a {
+  color: #351431;
+  font-family: "Sniglet" , "Ariel" , sans-serif;
+} 
+
+header {
+  overflow: hidden;
+  background-color: #065A82;
+  padding: 20px 450px;
+  border-radius: 3px;
+  }
+  
+
+header a {
+  float: left;
+  color: #351431;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 3px;
+  }
+
+header a:hover {
+    background-color: #F0F7EE;
+    color: #FFA2E0;
+  }
+  
+/*alle footer dingen? alle footer dingen.*/
+footer {
+  background-color: #065A82;
+  border-radius: 3px;
+  padding: 100px 20px;
+  margin-top: 200px;
+}
+
+.horizontal-list {
+  list-style: none; 
+  padding: 0; 
+  display: flex; 
+  justify-content: space-around; 
+}
+
+.horizontal-list li {
+  margin: 0 10px; 
+  color: #FFA2E0;
+  font-family: "Sniglet" , "Ariel" , sans-serif;
+  font-size: 1.6em;
+}
+
+
+/*home-page things live here my dude*/  
+.intro {
+  background-color: #F0F7EE;
+  font-family: "Delius" , "Ariel" , sans-serif;
+  width: 800px;
+  border-radius: 10px 0 10px 0;
+  padding: 15px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.shark-home {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shark-home img {
+  width: 300px; 
+  height: 300px; 
+  border-radius: 3px;
+  margin-right: 15px; 
+}
+
+
+/*big silly shark page.*/
+.whale-shark-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px; 
+}
+
+.text-box {
+  background-color: #F0F7EE; /* Background color for the left side */
+  padding: 15px; 
+  border-radius: 10px; 
+  width: 600px; 
+  margin-left: 20px;
+}
+
+.first-part-whale-shark,
+.second-part-whale-shark,
+.third-part-whale-shark {
+  margin-left: 20px;
+  font-family: "Delius" , "Ariel" , sans-serif;
+  color: #351431;
+  letter-spacing: 3px;
+}
+
+.whale-shark1,
+.whale-shark2 {
+  width: 45%; 
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+.whale-shark1 img{
+  width: 600px;
+  height: 750px; 
+  border-radius: 10px;
+}
+
+
+.whale-shark2 img {
+  width: 600px; 
+  border-radius: 10px; 
+  margin-top: 10px;
+}
+/*yeesh....T.T*/
+
+
+
+
+/*omg samaira's haaien obsessie wordt een beetje te duidelijk bij deze page..*/
+.image-sets {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.fact-frame {
+  width: calc(33.33% - 20px);
+  border: 5px solid #F0F7EE; 
+  padding: 20px;
+  box-sizing: border-box; 
+  text-align: left; 
+  font-family: "Delius" , "Ariel" , sans-serif;
+  color: #351431;
+  letter-spacing: 3px;
+  border-radius: 10px;
+}
+
+.fact-frame img {
+  max-width: 100%;
+  width: 400px;
+  height: 300px; 
+  display: block;
+  margin-bottom: 15px; 
+  align-items: center;
+}
+
+em {
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+
+/*je eigen haaien art expo? ja hoor, die is hiero.*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery div {
+  margin: 20px;
+  width: 200px; 
+}
+
+.gallery img {
+  width: 100%; 
+  height: 100%; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.2);
+}
+
+
+/*omg dat was 'm :o*/
+/*look at you go sam! na al dat procrastination toch nog wat af!!!*/
+/*  ╭( ･ㅂ･)و )))  */
